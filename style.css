@@ -59,7 +59,7 @@
 #header1 {
 	display: block;
 	color: #084C61;
-	background-color: rgba(219, 80, 74, 0.5);
+	/*background-color: rgba(219, 80, 74, 0.5);*/
 	border-radius: 5px;
 	padding: 10px;
 }
