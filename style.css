@@ -160,8 +160,8 @@
 	display: block;
 	color: #E3B505;
 	background-color: #56A3A6;
-	width: 97.2%;
-	padding: 20px;
+	width: 100%;
+	/*padding: 20px;*/
 	border-radius: 10px;
 }
 
