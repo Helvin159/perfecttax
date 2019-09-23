@@ -52,6 +52,14 @@
 	margin-bottom: 20px;
  }
 
+.maps{
+	width: 600px;
+	height:450px;
+	max-width: 600px;
+	max-height: 450px;
+	border-radius: 10px;
+}
+
 #map{
 	display:inline-block;
 	border: 5px solid #084C61;
@@ -136,9 +144,10 @@
 	display: inline-flex;
 	background-color:rgba(219, 80, 74, 0.5);
 	width:100%;
-	padding-bottom:10px;
+	/*padding:20px;*/
 	border-radius: 10px;
 	justify-content: center;
+	padding-bottom: 10px
 }
 
 #logo1{
