@@ -53,15 +53,16 @@
 	background-color: rgba(219, 80, 74, 0.5);
 }*/
 
-#contactdetails a{
-	color:#C8ADC0;
+#contactdetails a {
+	color: #C8ADC0;
 	font-size: 20px;
 	padding: 20px;
-	
+
 }
+
 #contactdetails {
 	display: inline;
-	color:#C8ADC0;
+	color: #C8ADC0;
 	border-right: 2px solid;
 	margin-right: 5px;
 	padding: 5px
@@ -92,17 +93,17 @@
 	border-radius: 5px;
 }
 
-#form h2{
-	color:#C8ADC0;
+#form h2 {
+	color: #C8ADC0;
 }
 
-#form h1{
-	color:#C8ADC0;
+#form h1 {
+	color: #C8ADC0;
 }
 
 .formitems {
 	padding: 20px;
-	color:#C8ADC0;
+	color: #C8ADC0;
 	font-size: 20px;
 }
 
@@ -150,7 +151,7 @@
 	border-radius: 10px;
 }
 
-.taxcontainer5 h1{
+.taxcontainer5 h1 {
 	color: #C8ADC0;
 }
 
@@ -228,7 +229,7 @@
 	margin-right: 0px;
 }
 
-.taxcontainer1 h1{
+.taxcontainer1 h1 {
 	color: #C8ADC0;
 }
 
@@ -260,7 +261,9 @@
 /*Home Page*/
 
 /*Third Container*/
-#container3 h1{color: #C8ADC0}
+#container3 h1 {
+	color: #C8ADC0
+}
 
 .unique {
 	border: 5px solid #C8ADC0;
@@ -268,7 +271,7 @@
 	border-radius: 10px;
 }
 
-.containerlinks3{
+.containerlinks3 {
 	color: #E8E9EB;
 	text-decoration: none;
 }
@@ -351,8 +354,8 @@
 	width: 100%;
 }
 
-.containerlinks{
-	width:100%;
+.containerlinks {
+	width: 100%;
 	text-decoration: none;
 }
 
@@ -367,11 +370,12 @@
 
 
 /*Unique to index.html*/
-#container h1{
+#container h1 {
 	text-decoration: none;
 	font-weight: 450;
 	padding: 20px;
 }
+
 #container {
 	display: block;
 	padding: 30px;
@@ -385,17 +389,14 @@
 	border-radius: 10px;
 }
 
-.igposts{
-	display:inline-flex;
-
+.igposts {
+	display: inline-flex;
 }
 
-#socialmedia h2{
-	
-}
+#socialmedia h2 {}
 
-#socialmedia h1{
-	display:block;
+#socialmedia h1 {
+	display: block;
 }
 
 #socialmedia {
@@ -416,7 +417,7 @@
 	border-radius: 10px;
 }
 
-#numbers h1{
+#numbers h1 {
 	font-weight: 200;
 }
 
@@ -426,13 +427,13 @@
 }
 
 #graphx {
-	display:inline-flex;
+	display: inline-flex;
 	width: auto;
 }
 
-#videos h1{
-	color:#C8ADC0;
-	padding:25px;
+#videos h1 {
+	color: #C8ADC0;
+	padding: 25px;
 }
 
 #videos {
