@@ -1,7 +1,7 @@
 * {
 	text-align: center;
 	font-family: sans-serif;
-	color: #E3B505;
+	color: #3454D1;
 }
 
 /*@media screen and (max-width: 750px) {
@@ -24,26 +24,48 @@
 		width: 100%
 	}
 }*/
+/*GENERAL ABOVE*/
 
-#input {
-	margin-bottom: 10px;
-	text-align: left;
-	color: #000;
-	padding: 5px;
-	border-radius: 5px;
-}
 
-#contactdetails {
-	display: inline;
-	border-right: 2px solid;
-	margin-right: 5px;
-	padding: 5px
-}
+/*Contact Page*/
+
 
 /*
 #contactdetails a{
 	color:#084C61
 }*/
+
+.maps {
+	width: 600px;
+	height: 450px;
+	max-width: 600px;
+	max-height: 450px;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+/*#map {
+	display: inline-block;
+	border: 5px solid #084C61;
+	border-radius: 10px;
+	width: 50%;
+	margin-bottom: 20px;
+	background-color: rgba(219, 80, 74, 0.5);
+}*/
+
+#contactdetails a{
+	color:#C8ADC0;
+	font-size: 20px;
+	padding: 20px;
+	
+}
+#contactdetails {
+	display: inline;
+	color:#C8ADC0;
+	border-right: 2px solid;
+	margin-right: 5px;
+	padding: 5px
+}
 
 #commentbox {
 	width: 45%;
@@ -62,38 +84,42 @@
 	padding: 20px
 }
 
+#input {
+	margin-bottom: 10px;
+	text-align: left;
+	color: #000;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#form h2{
+	color:#C8ADC0;
+}
+
+#form h1{
+	color:#C8ADC0;
+}
+
 .formitems {
 	padding: 20px;
-
+	color:#C8ADC0;
+	font-size: 20px;
 }
 
 #form {
 	display: inline-block;
-	background-color: #084C61;
-	padding: 20px;
+	background-color: #3454D1;
+	padding: 30px;
 	width: 80%;
 	border-radius: 10px;
 	margin-bottom: 20px;
 }
 
-.maps {
-	width: 600px;
-	height: 450px;
-	max-width: 600px;
-	max-height: 450px;
-	border-radius: 10px;
-}
 
-#map {
-	display: inline-block;
-	border: 5px solid #084C61;
-	border-radius: 10px;
-	width: 50%;
-	padding: 20px;
-	margin-bottom: 20px;
-	background-color: rgba(219, 80, 74, 0.5);
-}
+/*Tax Page*/
 
+
+/*Third Tax Group*/
 .taxcontainer6 li {
 	color: #000;
 	text-align: left;
@@ -119,13 +145,17 @@
 }
 
 .taxcontainer5 img {
-	border: 5px solid #000;
+	border: 5px solid #C8ADC0;
 	padding: 20px;
 	border-radius: 10px;
 }
 
+.taxcontainer5 h1{
+	color: #C8ADC0;
+}
+
 .taxcontainer5 {
-	background-color: #E3B505;
+	background-color: #1D3461;
 	width: auto;
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -134,8 +164,9 @@
 	margin-bottom: 0px;
 }
 
+/*Second Tax Group*/
 .taxcontainer4 img {
-	border: 5px solid #000;
+	border: 5px solid #3454D1;
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -147,7 +178,7 @@
 }
 
 .taxcontainer4 {
-	background-color: #56A3A6;
+	background-color: #E8E9EB;
 	width: auto;
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -176,6 +207,7 @@
 	margin: 0px;
 }
 
+/*First Tax Group*/
 
 .taxcontainer2 li {
 	color: #000;
@@ -196,14 +228,18 @@
 	margin-right: 0px;
 }
 
+.taxcontainer1 h1{
+	color: #C8ADC0;
+}
+
 .taxcontainer1 img {
-	border: 5px solid #000;
+	border: 5px solid #C8ADC0;
 	border-radius: 10px;
 	padding: 20px
 }
 
 .taxcontainer1 {
-	background-color: #DB504A;
+	background-color: #3454D1;
 	width: auto;
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -211,7 +247,6 @@
 	margin-bottom: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
-
 }
 
 #taxcontainers {
@@ -221,49 +256,85 @@
 	margin: 0px;
 }
 
-#container1 {
-	display: inline-block;
-	background-color: #DB504A;
-	padding: 20px;
-	width: 47%;
-	margin: 0;
+
+/*Home Page*/
+
+/*Third Container*/
+#container3 h1{color: #C8ADC0}
+
+.unique {
+	border: 5px solid #C8ADC0;
+	padding: 10px;
 	border-radius: 10px;
 }
 
-#container2 {
-	display: inline-block;
-	background-color: #56A3A6;
-	padding: 20px;
-	width: 47%;
-	margin: 0;
-	border-radius: 10px;
-
+.containerlinks3{
+	color: #E8E9EB;
+	text-decoration: none;
 }
 
 #container3 {
 	display: inline-block;
-	background-color: #084C61;
-	/*padding: 20px;*/
+	background-color: #1D3461;
 	width: 100%;
+	margin: 0;
+	border-radius: 10px;
+	padding: 40px;
+}
+
+/*Second Container*/
+.container2img {
+	border: 5px solid #3454D1;
+	padding: 10px;
+	border-radius: 10px
+}
+
+
+#container2 h1,
+#container2 li {
+	color: #3454D1;
+}
+
+#container2 {
+	display: inline-block;
+	background-color: #E8E9EB;
+	padding: 20px;
+	width: 47%;
 	margin: 0;
 	border-radius: 10px;
 }
 
-.headimages {
-	border: 5px solid #084C61;
+/*First Container*/
+
+#container1 li {
+
+	color: #3454D1;
+	text-decoration: none;
+}
+
+#container1 {
+	display: inline-block;
+	background-color: #C8ADC0;
+	padding: 20px;
+	width: 47%;
+	margin: 0;
+	border-radius: 10px;
+}
+
+.container1img {
+	border: 5px solid #E8E9EB;
 	padding: 10px;
 	border-radius: 10px
 }
 
-.unique {
-	border: 5px solid #E3B505;
-	padding: 10px;
-	border-radius: 10px
+#containers1 {
+	display: block;
 }
 
+/*Universal Container Items or Used Once*/
 #images {
 	display: block;
-	background-color: rgba(219, 80, 74, 0.5);
+	background-color: rgba(200, 173, 192, 0.5);
 	padding: 30px;
 	border-radius: 10px;
 }
@@ -273,23 +344,25 @@
 	height: auto;
 	width: auto\9;
 	/*ie 8*/
-
 }
 
 #introimg {
 	display: inline-block;
 	width: 100%;
-
 }
 
-#logobackdrop {
-	display: inline-block;
-	background-color: rgba(219, 80, 74, 0.5);
-	border-radius: 10px;
-	padding-top: 30px;
-	margin-top: 35px;
-	margin-bottom: 30px;
-	width: 75%
+.containerlinks{
+	width:100%;
+	text-decoration: none;
+}
+
+#header1 {
+	display: block;
+	color: #3454D1;
+	/*background-color: rgba(219, 80, 74, 0.5);*/
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: underline;
 }
 
 #container {
@@ -298,28 +371,16 @@
 	margin-top: 60px;
 }
 
-#header1 {
-	display: block;
-	color: #084C61;
-	/*background-color: rgba(219, 80, 74, 0.5);*/
-	border-radius: 5px;
-	padding: 10px;
-	text-decoration: underline;
-}
-
-#containers1 {
-	display: block;
-}
-
+/*Social Media*/
 .ig {
 	padding: 20px;
-	border: 5px dashed #084C61;
+	border: 5px dashed #E8E9EB;
 	border-radius: 10px;
 }
 
 #igpics {
 	display: inline-flex;
-	background-color: rgba(219, 80, 74, 0.5);
+	background-color: #C8ADC0;
 	width: 100%;
 	padding-top: 40px;
 	border-radius: 10px;
@@ -327,41 +388,88 @@
 	padding-bottom: 40px
 }
 
-#logo1 {
-	border: 5px solid #084C61;
-	border-radius: 150px;
-	margin-bottom: 20px;
+
+/*Media & Graphics*/
+.clientnumbers {
+	border: 5px dashed #DADFF7;
+	border-radius: 10px;
+	/*margin-right: 20px;*/
 }
 
-#articles {
+.established {
+	border: 5px dashed #DADFF7;
+	border-radius: 10px;
+}
+
+.appnumbers {
+	border: 5px dashed #DADFF7;
+	border-radius: 10px;
+}
+
+#formprepnumbers {
+	padding: 40px;
+}
+
+#graphx {
+	display: inline-flex;
+	/*padding:;*/
+}
+
+#videos h1{
+	color:#C8ADC0;
+	padding:25px;
+}
+
+#videos {
 	display: block;
 	color: #E3B505;
-	background-color: #56A3A6;
+	background-color: #6665DD;
 	width: 100%;
 	padding-top: 30px;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	border-radius: 10px;
+}
+
+
+/*Nav, Footer, Logo, etc...*/
+
+#logobackdrop {
+	display: inline-block;
+	background-color: rgba(200, 173, 192, 0.5);
+	border-radius: 10px;
+	padding-top: 30px;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	width: 75%
+}
+
+#logo1 {
+	border: 5px solid #3454D1;
+	border-radius: 150px;
+	margin-bottom: 20px;
 }
 
 nav li a {
 	display: inline-block;
 	text-decoration: none;
-	color: #E3B505;
+	color: #3454D1;
 	width: auto;
 	padding: 10px
 }
 
 
 nav li a:hover {
-	background-color: #E3B505;
-	color: #084C61;
+	background-color: #3454D1;
+	color: #E8E9EB;
 	border-radius: 5px;
+	text-decoration: underline;
+	font-weight: 600;
 }
 
 nav li {
 	display: inline;
-	color: #DB504A;
-	border-right: 1px solid #DB504A;
+	color: #E8E9EB;
+	border-right: 1px solid #3454D1;
 	border-radius: 5px;
 	width: auto;
 	float: left;
@@ -384,7 +492,7 @@ nav {
 	margin-left: 0;
 	padding-bottom: 5px;
 	width: 100%;
-	background-color: rgba(79, 109, 122, 1);
+	background-color: #E8E9EB;
 	border-radius: 10px;
 }
 
@@ -393,10 +501,11 @@ footer {
 	bottom: 0;
 	margin-bottom: 0;
 	width: 100%;
-	background-color: #4F6D7A;
+	background-color: #E8E9EB;
 	padding: 10px;
 	border-radius: 10px;
 	margin-top: 0;
+	color: #3454D1;
 }
 
 body {
