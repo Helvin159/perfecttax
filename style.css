@@ -129,6 +129,7 @@
 	padding: 10px;
 }
 
+/*Replaced by ID:#taxcontainer0
 .taxcontainer6 {
 	width: auto;
 	padding-left: 15px;
@@ -137,7 +138,7 @@
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-}
+}*/
 
 
 .taxcontainer5 h2 {
@@ -155,6 +156,7 @@
 	color: #C8ADC0;
 }
 
+/*Replaced by ID:#taxcontainer0
 .taxcontainer5 {
 	background-color: #3454d1;
 	width: auto;
@@ -163,7 +165,7 @@
 	padding-left: 40px;
 	margin-left: 0px;
 	margin-bottom: 0px;
-}
+}*/
 
 /*Second Tax Group*/
 .taxcontainer4 img {
@@ -178,6 +180,7 @@
 
 }
 
+/*Replaced by ID:#taxcontainer00
 .taxcontainer4 {
 	background-color: #E8E9EB;
 	width: auto;
@@ -188,7 +191,7 @@
 	margin-bottom: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
-}
+}*/
 
 .taxcontainer3 li {
 	color: #000;
@@ -198,6 +201,7 @@
 	list-style-type: none;
 }
 
+/*Replaced by ID:#taxcontainer00
 .taxcontainer3 {
 	width: auto;
 	padding-top: 20px;
@@ -206,7 +210,7 @@
 	padding-left: 15px;
 	background-color: none;
 	margin: 0px;
-}
+}*/
 
 /*First Tax Group*/
 
@@ -218,6 +222,7 @@
 	list-style-type: none;
 }
 
+/*Replaced by ID:#taxcontainer0
 .taxcontainer2 {
 	width: auto;
 	background-color: none;
@@ -227,7 +232,7 @@
 	margin-bottom: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-}
+}*/
 
 .taxcontainer1 h1 {
 	color: #C8ADC0;
@@ -239,8 +244,8 @@
 	padding: 20px
 }
 
+/*Replaced by ID:#taxcontainer0
 .taxcontainer1 {
-	background-color: #3454D1;
 	width: auto;
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -248,13 +253,27 @@
 	margin-bottom: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
-}
+}*/
 
 #taxcontainers {
 	display: inline-block;
 	width: 47%;
 	border-radius: 10px;
 	margin: 0px;
+}
+
+#taxcontainer00{
+	width:100%;
+	height:auto;
+	background: linear-gradient(to right, #fff 50%, #E8E9EB 50%);
+	border-radius: 10px;
+}
+
+#taxcontainer0{
+	width:100%;
+	height:auto;
+	background: linear-gradient(to right, #3454D1 50%, #fff 50%);
+	border-radius: 10px;
 }
 
 
@@ -415,6 +434,8 @@
 .stats {
 	border: 5px dashed #3454D1;
 	border-radius: 10px;
+	width:auto;
+	height:auto;
 }
 
 #numbers h1 {
@@ -446,6 +467,9 @@
 	border-radius: 10px;
 	margin-bottom: 38px;
 }
+
+
+
 
 
 /*Nav, Footer, Logo, etc...*/
