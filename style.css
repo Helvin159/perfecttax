@@ -319,7 +319,7 @@
 
 #container2 {
 	display: inline-block;
-	background-color: #E8E9EB;
+	/*background-color: #E8E9EB;*/
 	padding: 20px;
 	width: 47%;
 	margin: 0;
@@ -336,7 +336,7 @@
 
 #container1 {
 	display: inline-block;
-	background-color: #C8ADC0;
+	/*background-color: #C8ADC0;*/
 	padding: 20px;
 	width: 47%;
 	margin: 0;
@@ -352,6 +352,15 @@
 #containers1 {
 	display: block;
 }
+
+#container1and2{
+	width:100%;
+	height:auto;
+	background: linear-gradient(to right, #C8ADC0 50%, #E8E9EB 50%);
+	border-radius: 10px;
+}
+
+
 
 /*Universal Container Items or Used Once*/
 #images {
