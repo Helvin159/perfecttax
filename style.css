@@ -667,7 +667,7 @@ html, body {
 }
 		
 	#logobackdrop{
-		margin-top: 180px;
+		margin-top: 0px;
 	}
 		
 	nav img{
@@ -675,11 +675,26 @@ html, body {
 }
 	nav a{
 		width: 100%;
+		height:auto;
+		margin-top: 0px;
+
 	}
 	nav ul{
-		display: block
+		margin-top: 0px;
+		display: block;
+		
 	}
 	nav li{
 		width:100%;
+		padding: 3px;
+	}
+	nav{
+		position:static;
+		max-width: 100%;
+		height:240px;
+		max-height: 500px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		padding:6px;
 	}
 }
