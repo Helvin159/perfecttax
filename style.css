@@ -3,13 +3,9 @@
 	color: #3454D1;
 }
 
-
-
 /*GENERAL ABOVE*/
 
-
 /*Contact Page*/
-
 
 /*
 #contactdetails a{
@@ -584,6 +580,7 @@ html, body {
 	margin: 0;
 	overflow: scroll;
 	overflow-x: hidden;
+
 }
 
 @media screen and (max-width: 768px) {
