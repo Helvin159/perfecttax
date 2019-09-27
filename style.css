@@ -367,10 +367,6 @@
 	font-weight: 350;
 }
 
-#container2 li {
-	color: #E8E9EB;
-}
-
 #container2 img{
 	max-width: 100%;
 	border: 5px dashed #E8E9EB;
@@ -399,15 +395,11 @@
 #container1 h1{
 	max-width: 100%;
 	font-weight: 350;
-}
-
-#container1 li {
-	color: #3454D1;
-	text-decoration: none;
+	color: #E8E9EB;
 }
 
 #container1 img{
-	border: 5px dashed #3454D1;
+	border: 5px dashed #E8E9EB;
 	padding: 10px;
 	border-radius: 10px;
 	max-width: 100%;
@@ -430,7 +422,7 @@
 	width:100%;
 	max-width: 100%;
 	max-height:auto;
-	background: linear-gradient(to right, #E8E9EB 48%, #6665DD 48%);
+	background: linear-gradient(to right, #6F686D 48%, #6665DD 48%);
 	border-radius: 10px;
 	justify-content: center;
 }
