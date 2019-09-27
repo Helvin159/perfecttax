@@ -123,8 +123,12 @@
 #form {
 	background-color: #3454D1;
 	width: 100%;
+	height: auto;
+	padding: 20px;
 	border-radius: 10px;
 	margin-bottom: 0px;
+	margin-top: 0px;
+
 }
 
 
