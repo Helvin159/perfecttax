@@ -190,7 +190,7 @@
 	text-decoration: underline;
 
 }
-
+	
 /*Replaced by ID:#taxcontainer00
 .taxcontainer4 {
 	background-color: #E8E9EB;
@@ -203,7 +203,7 @@
 	margin-right: 0px;
 	margin-left: 0px;
 }*/
-
+	
 .taxcontainer3 li {
 	color: #000;
 	padding: 10px;
@@ -211,7 +211,7 @@
 	font-size: 25px;
 	list-style-type: none;
 }
-
+	
 /*Replaced by ID:#taxcontainer00
 .taxcontainer3 {
 	width: auto;
@@ -222,9 +222,9 @@
 	background-color: none;
 	margin: 0px;
 }*/
-
+	
 /*First Tax Group*/
-
+	
 .taxcontainer2 li {
 	color: #000;
 	padding: 10px;
@@ -232,7 +232,7 @@
 	font-size: 25px;
 	list-style-type: none;
 }
-
+	
 /*Replaced by ID:#taxcontainer0
 .taxcontainer2 {
 	width: auto;
@@ -244,17 +244,17 @@
 	margin-left: 0px;
 	margin-right: 0px;
 }*/
-
+	
 .taxcontainer1 h1 {
 	color: #C8ADC0;
 }
-
+	
 .taxcontainer1 img {
 	border: 5px solid #C8ADC0;
 	border-radius: 10px;
 	padding: 20px
 }
-
+	
 /*Replaced by ID:#taxcontainer0
 .taxcontainer1 {
 	width: auto;
@@ -265,14 +265,14 @@
 	margin-right: 0px;
 	margin-left: 0px;
 }*/
-
+	
 #taxcontainers {
 	display: inline-block;
 	width: 47%;
 	border-radius: 10px;
 	margin: 0px;
 }
-
+	
 #taxcontainer00{
 	width:100%;
 	height:auto;
@@ -280,7 +280,7 @@
 	border-radius: 10px;
 	text-align: center;
 }
-
+	
 #taxcontainer0{
 	width:100%;
 	height:auto;
@@ -288,20 +288,21 @@
 	border-radius: 10px;
 	text-align: center;
 }
-
-
+					
+					
 /*Home Page*/
-
+	
 /*Third Container*/
+	
 .unique:hover{
 	transform: scale(1.03)
 }
-
+	
 #container3 h1 {
 	color: #C8ADC0;
 	font-weight: 350;
 }
-
+	
 .unique img{
 	border: 5px dashed #C8ADC0;
 	padding: 10px;
@@ -310,16 +311,16 @@
 	height:auto;
 	max-width: 100%;
 }
-
+	
 .containerlinks3 {
 	color: #E8E9EB;
 	text-decoration: none;
 }
-
+	
 #container3 img{
 	max-width: 80%;
 }
-
+	
 #container3 {
 	display: inline-block;
 	background-color: #3454d1;
@@ -330,25 +331,27 @@
 	border-radius: 10px;
 	padding-bottom: 40px;
 }
-
+	
 #thirdcontainer{
 	display: block;
 	text-align: center;
 	width: 100%;
 	max-height: 100%;
 }
+		
+		
 /*Second Container*/
-
+	
 .container2img:hover{
 	transform: scale(1.03)
 }
-
+	
 #container2 h1{
 	color:#E8E9EB;
 	max-width: 100%;
 	font-weight: 350;
 }
-
+	
 #container2 img{
 	max-width: 100%;
 	border: 5px dashed #E8E9EB;
@@ -357,7 +360,7 @@
 	width:auto;
 	height: auto;
 }
-
+	
 #container2 {
 	/*display: inline-block;*/
 	/*background-color: #E8E9EB;*/
@@ -369,17 +372,20 @@
 	margin-right: 18%;
 	margin-left: 15%;
 }
-
+		
+		
 /*First Container*/
+	
 .container1img:hover{
 	transform: scale(1.03)
 }
+	
 #container1 h1{
 	max-width: 100%;
 	font-weight: 350;
 	color: #E8E9EB;
 }
-
+	
 #container1 img{
 	border: 5px dashed #E8E9EB;
 	padding: 10px;
@@ -388,7 +394,7 @@
 	width: auto;
 	height: auto;
 }
-
+	
 #container1 {
 	/*display: inline-block;*/
 	/*background-color: #C8ADC0;*/
@@ -398,7 +404,7 @@
 	border-radius: 10px;
 	margin-left:11%;
 }
-
+	
 #container1and2{
 	display:inline-flex;
 	width:100%;
@@ -408,8 +414,10 @@
 	border-radius: 10px;
 	justify-content: center;
 }
-
+		
+		
 /*Page Intro*/
+	
 .indeximgs{
 	border: 5px solid #3454D1;
 	padding: 10px;
@@ -419,17 +427,17 @@
 	height: auto;
 	margin:50px;
 }
-
+	
 #introimgs {
 	max-height: auto;
 	max-width: 100%;
 }
-
+	
 .containerlinks {
 	width: 100%;
 	text-decoration: none;
 }
-
+	
 #header1 {
 	display: block;
 	color: #3454D1;
@@ -438,17 +446,17 @@
 	padding: 10px;
 	text-decoration: underline;
 }
-
+	
 #introimg {
 	max-width: 100%
 }
-
+	
 #container h1 {
 	text-decoration: none;
 	font-weight: 450;
 	padding: 20px;
 }
-
+	
 #container {
 	display: block;
 	border-radius: 10px;
@@ -459,8 +467,10 @@
 	border-radius: 10px;
 	background-color: rgba(200, 173, 192, 0.5);
 }
-
+		
+		
 /*Social Media*/
+	
 .ig {
 	display:inline;
 	padding: 20px;
@@ -470,12 +480,12 @@
 	height: 500px;
 	margin:50px;
 }
-
+	
 #socialmedia h1 {
 	display: block;
 	font-weight: 350;
 }
-
+	
 #socialmedia {
 	display: inline-block;
 	background-color: #C8ADC0;
@@ -486,17 +496,18 @@
 	text-align: center;
 	margin-top: 0px;
 }
-
-
+		
+		
 /*Media & Graphics*/
-
+	
 .stats img:hover{
 	transform: scale(1.03)
 }
+	
 .stats img{
 	max-width: 100%;
 }
-
+	
 .stats {
 	display: inline-block;
 	border: 5px dashed #3454D1;
@@ -506,37 +517,37 @@
 	width:auto;
 	height:auto;
 }
-
+	
 #numbers h1 {
 	font-weight: 350;
 }
-
+	
 #numbers {
 	padding: 40px;
 	background-color: #E8E9EB;
 	text-align: center;
 }
-
+	
 #graphx {
 	/*display: inline-flex;*/
 	width: auto;
 	max-width: 100%;
 	text-align: center;
 }
-
+	
 #videos h1 {
 	color: #E8E9EB;
 	padding: 25px;
 	font-weight: 350;
 }
-
+	
 #videos iframe{
 	margin:1%;
 	border:5px dashed #E8E9EB;
 	padding:20px;
 	border-radius: 10px;
 }
-
+	
 #videos {
 	display: block;
 	color: #E3B505;
@@ -548,9 +559,10 @@
 	margin-bottom: 38px;
 	text-align: center;
 }
-
+		
+		
 /*Nav, Footer, Logo, etc...*/
-
+	
 #logobackdrop {
 	display: inline-block;
 	background-color: rgba(200, 173, 192, 0.5);
@@ -559,7 +571,7 @@
 	margin-top: 60px;
 	width: 100%
 }
-
+	
 #logo1 {
 	/*display: inline-block;*/
 	border: 5px solid #3454D1;
@@ -567,7 +579,7 @@
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
-
+	
 nav a {
 	display: inline-block;
 	text-decoration: none;
@@ -575,14 +587,14 @@ nav a {
 	width: auto;
 	padding: 10px
 }
-
+	
 nav li a:hover {
 	background-color: #3454D1;
 	color: #E8E9EB;
 	border-radius: 5px;
 	font-weight: 600;
 }
-
+	
 nav li {
 	display: inline;
 	color: #E8E9EB;
@@ -590,7 +602,7 @@ nav li {
 	width: auto;
 	float: left;
 }
-
+	
 nav {
 	position: fixed;
 	top: 0;
@@ -603,7 +615,7 @@ nav {
 	border-radius: 10px;
 	max-width: 100%;
 }
-
+	
 footer {
 	position: fixed;
 	bottom: 0;
@@ -615,7 +627,7 @@ footer {
 	margin-top: 0;
 	color: #3454D1;
 }
-
+	
 html, body {
 	background-size: cover;
 	width: 100%;
@@ -625,37 +637,39 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
-	nav img{
-		display: none;
+#videos iframe{
+	max-width: 75%;
 	}
 	
-	nav a{
-		display: block;
-		float: none;
-		width: 100%;
-	}
-	nav ul{display: block
-	}
-
 #container2 h1{
 	margin-right: 60px;
 	margin-left: 0px
 }
-	
 #container2 img{
 	margin-right: 50px;
 	margin-left: 0px;
 	max-width:75%
 }
-
+	
 #container1 h1{
 	margin-left: 60px;
 	margin-right: 0px;
 }
-
 #container1 img{
 	margin-left: 50px;
 	margin-right: 0px;
 	max-width:75%;
 }
+	
+nav img{
+	display: none;
+}
+nav a{
+	display: block;
+	float: none;
+	width: 100%;
+}
+nav ul{display: block
+}
+	
 }
