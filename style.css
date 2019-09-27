@@ -382,22 +382,17 @@
 }
 
 #container2 {
-	display: inline-block;
+	/*display: inline-block;*/
 	/*background-color: #E8E9EB;*/
-	padding: 20px;
+	padding: 10px;
 	max-width: 47%;
 	width: auto;
 	max-height: auto;
 	border-radius: 10px;
-	margin-left:11.5%;
+	margin-right: 18%;
+	margin-left: 15%;
 }
 
-#secondcontainer{
-	display: block;
-	text-align: center;
-	width: 100%;
-	max-height: 100%;
-}
 /*First Container*/
 .container1img:hover{
 	transform: scale(1.03)
@@ -421,31 +416,26 @@
 }
 
 #container1 {
-	display: inline-block;
+	/*display: inline-block;*/
 	/*background-color: #C8ADC0;*/
-	padding: 20px;
+	padding: 10px;
 	max-width: 47%;
 	width: auto;
 	border-radius: 10px;
-	margin-right:;
+	margin-left:11%;
 }
 
 #container1and2{
-	/*display:block;*/
+	display:inline-flex;
 	width:100%;
-	max-width: auto;
-	max-height:400px;
-	background: linear-gradient(to right, #C8ADC0 50%, #6665DD 50%);
+	max-width: 100%;
+	max-height:auto;
+	background: linear-gradient(to right, #E8E9EB 48%, #6665DD 48%);
 	border-radius: 10px;
+	justify-content: center;
 }
 
-#firstcontainer {
-	display:flex;
-	text-align: center;
-	width: 100%;
-	max-height: 100%;
-}
-
+/*Page Intro*/
 .indeximgs{
 	border: 5px solid #3454D1;
 	padding: 10px;
@@ -592,6 +582,7 @@
 	border: 5px solid #3454D1;
 	border-radius: 150px;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 nav li a {
