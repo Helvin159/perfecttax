@@ -316,7 +316,8 @@
 }
 
 #container3 h1 {
-	color: #C8ADC0
+	color: #C8ADC0;
+	font-weight: 350;
 }
 
 .unique img{
@@ -361,17 +362,18 @@
 }
 
 #container2 h1{
-	color:#C8ADC0;
-	max-width: 100%
+	color:#E8E9EB;
+	max-width: 100%;
+	font-weight: 350;
 }
 
 #container2 li {
-	color: #C8ADC0;
+	color: #E8E9EB;
 }
 
 #container2 img{
 	max-width: 100%;
-	border: 5px dashed #C8ADC0;
+	border: 5px dashed #E8E9EB;
 	padding: 10px;
 	border-radius: 10px;
 	width:auto;
@@ -396,6 +398,7 @@
 }
 #container1 h1{
 	max-width: 100%;
+	font-weight: 350;
 }
 
 #container1 li {
@@ -496,6 +499,7 @@
 
 #socialmedia h1 {
 	display: block;
+	font-weight: 350;
 }
 
 #socialmedia {
@@ -530,7 +534,7 @@
 }
 
 #numbers h1 {
-	font-weight: 200;
+	font-weight: 350;
 }
 
 #numbers {
@@ -547,8 +551,9 @@
 }
 
 #videos h1 {
-	color: #C8ADC0;
+	color: #E8E9EB;
 	padding: 25px;
+	font-weight: 350;
 }
 
 #videos iframe{
