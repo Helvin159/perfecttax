@@ -247,12 +247,12 @@
 }
 	
 #container3 h1 {
-	color: #C8ADC0;
+	color: #E8E9EB;
 	font-weight: 350;
 }
 	
 .unique img{
-	border: 5px dashed #C8ADC0;
+	border: 5px dashed #E8E9EB;
 	padding: 10px;
 	border-radius: 10px;
 	width: auto;
@@ -431,6 +431,7 @@
 	
 #socialmedia h1 {
 	display: block;
+	color:#E8E9EB;
 	font-weight: 350;
 }
 	
