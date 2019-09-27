@@ -3,26 +3,8 @@
 	color: #3454D1;
 }
 
-/*@media screen and (max-width: 750px) {
-	body{
-		background-size: cover;
-	}
-	nav {
-		position: fixed;
-		top: 0;
-		margin: 0;
-		width: 100%;
-		background-color: rgba(79, 109, 122, 1);
-		border-radius: 10px;
-		}
-	#container{
-		width:100%;
-		
-	}
-	#container1{
-		width: 100%
-	}
-}*/
+
+
 /*GENERAL ABOVE*/
 
 
@@ -586,7 +568,7 @@
 	margin-top: 20px;
 }
 
-nav li a {
+nav a {
 	display: inline-block;
 	text-decoration: none;
 	color: #3454D1;
@@ -641,3 +623,11 @@ html, body {
 	margin: 0;
 	overflow-x: hidden;
 }
+
+@media screen and (max-width: 768px) {
+	nav a{
+		float: none;
+		width: 100%;
+	}
+
+	}
