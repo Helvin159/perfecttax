@@ -319,11 +319,8 @@
 	color: #C8ADC0
 }
 
-.unique{
-	;
-}
 .unique img{
-	border: 5px solid #C8ADC0;
+	border: 5px dashed #C8ADC0;
 	padding: 10px;
 	border-radius: 10px;
 	width: auto;
@@ -374,7 +371,7 @@
 
 #container2 img{
 	max-width: 100%;
-	border: 5px solid #C8ADC0;
+	border: 5px dashed #C8ADC0;
 	padding: 10px;
 	border-radius: 10px;
 	width:auto;
@@ -407,7 +404,7 @@
 }
 
 #container1 img{
-	border: 5px solid #3454D1;
+	border: 5px dashed #3454D1;
 	padding: 10px;
 	border-radius: 10px;
 	max-width: 100%;
@@ -552,6 +549,13 @@
 #videos h1 {
 	color: #C8ADC0;
 	padding: 25px;
+}
+
+#videos iframe{
+	margin:1%;
+	border:5px dashed #E8E9EB;
+	padding:20px;
+	border-radius: 10px;
 }
 
 #videos {
