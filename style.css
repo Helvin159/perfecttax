@@ -140,69 +140,41 @@
 	padding: 10px;
 }
 
-/*Replaced by ID:#taxcontainer0
-.taxcontainer6 {
-	width: auto;
-	padding-left: 15px;
-	padding-right: 20px;
-	background-color: none;
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-}*/
-
-
-.taxcontainer5 h2 {
+.taxcontainer5 h1 {
 	color: #084C61;
-	text-decoration: underline;
+	font-weight: 350;
+	
 }
 
 .taxcontainer5 img {
-	border: 5px solid #C8ADC0;
-	padding: 20px;
+	border: 5px dashed #E8E9EB;
+	padding: 10px;
 	border-radius: 10px;
+	max-width: 47%;
+	width: auto;
+	height: auto;
 }
 
 .taxcontainer5 h1 {
-	color: #C8ADC0;
+	color: #E8E9EB;
+	max-width: 100%;
+	margin-right: 5%;
 }
-
-/*Replaced by ID:#taxcontainer0
-.taxcontainer5 {
-	background-color: #3454d1;
-	width: auto;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	padding-left: 40px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-}*/
 
 /*Second Tax Group*/
 .taxcontainer4 img {
-	border: 5px solid #3454D1;
-	padding: 20px;
+	border: 5px dashed #E8E9EB;
+	padding:10px;
 	border-radius: 10px;
-}
-
-.taxcontainer4 h3 {
-	color: ;
-	text-decoration: underline;
-
+	max-width: 47%;
+	width: auto;
+	height: auto;
 }
 	
-/*Replaced by ID:#taxcontainer00
-.taxcontainer4 {
-	background-color: #E8E9EB;
-	width: auto;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	padding-right: 40px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-}*/
+.taxcontainer4 h1 {
+	color:#E8E9EB;
+	font-weight: 350;
+}
 	
 .taxcontainer3 li {
 	color: #000;
@@ -210,18 +182,9 @@
 	text-align: right;
 	font-size: 25px;
 	list-style-type: none;
+	max-width: 83%;
+	max-height: auto%
 }
-	
-/*Replaced by ID:#taxcontainer00
-.taxcontainer3 {
-	width: auto;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 0px;
-	padding-left: 15px;
-	background-color: none;
-	margin: 0px;
-}*/
 	
 /*First Tax Group*/
 	
@@ -233,38 +196,19 @@
 	list-style-type: none;
 }
 	
-/*Replaced by ID:#taxcontainer0
-.taxcontainer2 {
-	width: auto;
-	background-color: none;
-	padding-top: 20px;
-	padding-bottom: ;
-	padding-right: 40px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-}*/
-	
 .taxcontainer1 h1 {
-	color: #C8ADC0;
+	color: #E8E9EB;
+	font-weight: 350;
 }
 	
 .taxcontainer1 img {
-	border: 5px solid #C8ADC0;
+	border: 5px dashed #E8E9EB;
+	padding: 10px;
 	border-radius: 10px;
-	padding: 20px
-}
-	
-/*Replaced by ID:#taxcontainer0
-.taxcontainer1 {
+	max-width: 47%;
 	width: auto;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	padding-left: 40px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
-}*/
+	height: auto;
+}
 	
 #taxcontainers {
 	display: inline-block;
@@ -276,7 +220,7 @@
 #taxcontainer00{
 	width:100%;
 	height:auto;
-	background: linear-gradient(to right, #fff 50%, #E8E9EB 50%);
+	background: linear-gradient(to right, #fff 48%, #6665DD 48%);
 	border-radius: 10px;
 	text-align: center;
 }
@@ -284,7 +228,7 @@
 #taxcontainer0{
 	width:100%;
 	height:auto;
-	background: linear-gradient(to right, #3454D1 50%, #fff 50%);
+	background: linear-gradient(to right, #6F686D 48%, #fff 48%);
 	border-radius: 10px;
 	text-align: center;
 }
@@ -660,7 +604,8 @@ html, body {
 		margin-left: 60px;
 		margin-right: 0px;
 	}
-#container1 img{
+		
+	#container1 img{
 	margin-left: 50px;
 	margin-right: 0px;
 	max-width:75%;
@@ -673,21 +618,25 @@ html, body {
 	nav img{
 		display: none;
 }
+		
 	nav a{
 		width: 100%;
 		height:auto;
 		margin-top: 0px;
 
 	}
+		
 	nav ul{
 		margin-top: 0px;
 		display: block;
 		
 	}
+		
 	nav li{
 		width:100%;
 		padding: 3px;
 	}
+		
 	nav{
 		position:static;
 		max-width: 100%;
