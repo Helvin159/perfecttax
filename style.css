@@ -91,7 +91,7 @@
 
 #commentbox {
 	width: 45%;
-	height: 150px;
+	height: 45%;
 	text-align: left;
 	margin-bottom: 10px;
 	color: #000000;
@@ -100,8 +100,8 @@
 }
 
 .submitbutton {
-	width: 150px;
-	height: 100px;
+	width: auto;
+	height: auto;
 	color: #000000;
 	padding: 20px
 }
@@ -122,11 +122,16 @@
 	color: #C8ADC0;
 }
 
+.messagebox{
+	width: 47%;
+}
+
 .formitems {
 	padding: 20px;
 	color: #C8ADC0;
 	font-size: 20px;
 	margin-left: 20px;
+	width:47%
 }
 
 #form h1{
@@ -134,7 +139,6 @@
 }
 
 #form {
-	display: inline-block;
 	background-color: #3454D1;
 	width: 100%;
 	border-radius: 10px;
@@ -452,14 +456,6 @@
 	margin:50px;
 }
 
-/*Universal Container Items or Used Once*/
-#images {
-	display: block;
-	background-color: rgba(200, 173, 192, 0.5);
-	padding: 30px;
-	border-radius: 10px;
-}
-
 #introimgs {
 	max-height: auto;
 	max-width: 100%;
@@ -480,11 +476,9 @@
 }
 
 #introimg {
-	text-align: center;
+	max-width: 100%
 }
 
-
-/*Unique to index.html*/
 #container h1 {
 	text-decoration: none;
 	font-weight: 450;
@@ -495,6 +489,11 @@
 	display: block;
 	border-radius: 10px;
 	margin-top: 60px;
+	width:100%;
+	text-align: center;
+	padding: 30px;
+	border-radius: 10px;
+	background-color: rgba(200, 173, 192, 0.5);
 }
 
 /*Social Media*/
