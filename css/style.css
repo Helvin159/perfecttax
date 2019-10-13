@@ -8,6 +8,148 @@
 }
 
 
+/*Grid*/
+.main-content {
+	display: block;
+	padding: 10%;
+	flex: 1 1 80%;
+	height: auto;
+	position: relative;
+}
+
+.portfolio {
+	display: grid;
+	height: 80%;
+	grid-template-rows: repeat(6, 1fr);
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 10px;
+
+}
+
+.portfolio-item a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 35px;
+
+}
+
+.portfolio-item {
+	background-color: rgba(2, 17, 27, 0.5);
+	color: #FAFAFF;
+	font-weight: 350;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.medium {
+	grid-row: span 2;
+	grid-column: span 2;
+}
+
+.large {
+	grid-row: span 3;
+	grid-column: span 3;
+}
+
+.tall {
+	grid-row: span 3;
+	grid-column: span 2;
+}
+
+.wide {
+	grid-row: span 2;
+	grid-column: span 3;
+}
+
+
+.portfolio-item:hover {
+	transform: scale(1.02);
+	font-size: 26px;
+	cursor: pointer;
+	color:
+}
+
+.ufr {
+	background-image: url(img/UFRPAGE.png);
+	color: #FAFAFF;
+	text-shadow: -1px 1px 5px #fff;
+	font-size: 25px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.meliitats {
+	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/melii.png);
+	color: #FAFAFF;
+	text-shadow: -1px 1px 5px #fff;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.three {
+	background-image: url();
+	color: #FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.four {
+	background-image: url();
+	color: #FAFAFF;
+	text-shadow: -4px 2px 10px #000;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+.perfecttax {
+	background: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/ptax-.png);
+	color: #FAFAFF;
+	text-shadow: -1px 1px 5px #fff;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+
+}
+
+.six {
+	background-image: linear-gradient(0deg, rgba(2, 17, 27, 0.5), rgba(2, 17, 27, 0.5)), url(img/Castillo.png);
+	color: #FAFAFF;
+	text-shadow: -1px 1px 5px #fff;
+	font-size: 25px;
+	background-size: cover;
+	background-position: center;
+	transition: all ease-in-out 1s;
+	position: relative;
+}
+
+#grid {
+	width: 95%;
+	margin-left: 10%;
+	height: 500px;
+	width: 80%;
+	padding-top: 50px;
+	padding-bottom: 0px
+}
+
+
+
 /*NYS Law Page*/
 .article h1 {
 	padding-top: 5%;
@@ -88,7 +230,6 @@
 	vertical-align: middle;
 	color: var(--platinum);
 }
-
 
 .mapdets iframe {
 	border-radius: 5px;
@@ -190,7 +331,6 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
 	background-color: var(--blue);
 }
-
 
 .video {
 	width: 50%;
@@ -305,6 +445,61 @@
 	background-color: var(--lavender);
 	display: table;
 }
+
+/**/
+.subpage h1 {
+	color: var(--platinum);
+	font-size: 60px;
+	font-family: monospace;
+	font-weight: 300;
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin-left: 8%;
+	padding-top:3%;
+}
+
+.subpage a:hover {
+	background-color: var(--blue);
+	transition: 350ms ease-in-out;
+	color:var(--platinum);
+}
+
+.subpage a {
+	text-align: right;
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 1%;
+	border-radius: 5px;
+	color: var(--blue);
+	background-color: var(--platinum);
+	margin-left: 90%;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.subpage {
+	width: 100%;
+	height: auto;
+	background-image: var(--gradient);
+	background-size: 200%;
+	background-position: bottom left;
+	animation: intro-animation 15s infinite alternate;
+	animation-delay: .5s;
+	margin-bottom: 0px;
+}
+
+@keyframes intro-animation {
+	0% {
+		background-position: left
+	}
+
+	100% {
+		background-position: right
+	}
+}
+
 
 /*Intro*/
 .intro h1 {
@@ -491,6 +686,7 @@ nav li:hover {
 
 nav a:hover {
 	color: var(--charcoal);
+
 }
 
 nav a {
